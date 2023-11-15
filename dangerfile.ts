@@ -21,5 +21,5 @@ const prTitle = danger.github.pr.title;
 const jiraIdRegex = /\bDS-\d{1,}\b/;
 
 if (!jiraIdRegex.test(prTitle)) {
-  fail("Please include JIRA Task ID in PR Title");
+  fail("Please include JIRA Task ID (DS-xxxx) in PR Title");
 }
