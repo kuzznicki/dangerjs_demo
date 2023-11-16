@@ -21,7 +21,7 @@ if (!jiraIdRegex.test(prTitle)) {
   fail("Please include JIRA Task ID (DS-xxxx) in PR Title");
 }
 
-function list(items: string[]) {
+function list(items) {
   return `
 
 ${items.join("\n - ")}
