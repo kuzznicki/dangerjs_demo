@@ -24,7 +24,7 @@ if (!jiraIdRegex.test(prTitle)) {
 function list(items) {
   return `
 
-${items.join("\n - ")}
+  - ${items.join("\n - ")}
     
 `;
 }
